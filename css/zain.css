@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  height: 100vh;
+  background: linear-gradient(red,transparent);
+}
+header{
+  font-family: aref ruqaa;
+  border-left: solid rgb(1, 174, 255);
+  border-top: solid rgb(1, 174, 255);
+  border-right: solid rgb(1, 174, 255);
+  text-align: center;
+  background:blueviolet;
+  padding: 1px;
+  max-width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.image{
+  border-left: solid rgb(1, 174, 255);
+  border-top: solid rgb(1, 174, 255);
+  border-right: solid rgb(1, 174, 255);
+  background:blueviolet ;
+  max-width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+a{
+  font-family:rubik;
+
+  text-decoration: none;
+  color: black;
+}
+img{
+  width: 200px;
+}
+.table{
+  padding: 5px;
+  width: 80%;
+  height: 20vh;
+  margin: auto;
+  display: grid;
+  row-gap: 10px;
+  column-gap: 5px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.table div a p{
+  font-size: 20px;
+  height: 100%;
+  background-color: #00eeff75;
+  border:#1100ff98 solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.table div a:active{
+  color: red;
+  background-color: blue;
+}
+.father,.place{
+  grid-column: 1/2;
+}
+.me,.price{
+  grid-column: 2/3;
+}
+.main{
+  grid-column: 1/3;
+}  
